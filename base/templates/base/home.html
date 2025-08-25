@@ -1,0 +1,121 @@
+{% load static %}
+<!--<link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+<h1>Hello world!</h1>
+<p>Welcome to my website.</p>
+<p>This is a simple Django application.</p>
+<p>Feel free to explore the code and make changes.</p>
+<p>Check out the <a href="https://docs.djangoproject.com/en/stable/">Django documentation</a> for more information.</p>
+<p>Enjoy your coding journey!</p>
+<p>To get started, you can run the server with <code>python manage.py run
+server</code> and visit <a href="/">http://localhost:8000/</a> in your browser.</p>
+<p>Have fun!</p>
+<p>Don't forget to check the static files and templates directories for more customization options.</p>
+<p>If you have any questions, feel free to ask in the community forums.</p>
+<p>Happy coding!</p>
+<p>Remember to keep your code clean and well-documented.</p>
+<p>Use version control to track your changes.</p>
+<p>Consider deploying your application to a platform like Heroku or DigitalOcean.</p>
+<p>Make sure to test your application thoroughly before deploying.</p>
+<p>Use Django's built-in testing framework to write tests for your views and models.</p>
+<p>Keep your dependencies up to date to avoid security vulnerabilities.</p>
+<p>Use virtual environments to manage your project's dependencies.</p>
+<p>Consider using a linter to catch potential issues in your code.</p>
+<p>Follow best practices for Django development to ensure your application is maintainable.</p>
+<p>Use Django's admin interface to manage your application's data easily.</p> 
+<p>Explore Django's built-in features like authentication, forms, and ORM.</p>
+<p>Take advantage of Django's powerful templating engine to create dynamic web pages.</p>
+<p>Use static files to serve CSS, JavaScript, and images efficiently.</p>
+<p>Consider using Django's class-based views for more reusable and organized code.</p>
+<p>Utilize Django's middleware to process requests and responses globally.</p> -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mike Brian</title>
+        <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    </head>
+    <body>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card card-body h-100 border-info" id="profile-wrapper">
+                        <img id="profile-pic" src="{% static 'images/profile.jpg' %}" alt="Logo">
+                        <hr>
+                        <h4>Hi I'm Mike</h4>
+                        <p>I love coding, reading, research and comics</p>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card card-body h-100 border-info">
+                        <h4>My First Job As A Developer</h4>
+                        <hr>
+                        <p>3 months after writing my first Hello World program on September 8th 2017 (While working in the marketing 
+                            department) I had convinced my boss to let me take a stab at building a better version of the outdated 
+                            laboratory managment system my company was running on.</p>
+
+                        <p>Before I know it we transitioned from old system and we're on to mine. My newble self was now in 
+                            charge of hundreds of thousands of lab samples and supporting thousands of clients.</p>
+
+                        <p>From this you'll see that I'm someone that jumps before I can talk myself out of doing something scary.</p>
+                        <hr>
+                        <div class="social-container">
+                            <ul class="social-links">
+                                <li><img class="social" src="{% static 'images/facebook.png' %}" alt="Facebook"></li>
+                                <li><img class="social" src="{% static 'images/X.png' %}" alt="X"></li>
+                                <li><img class="social" src="{% static 'images/linkedin.png' %}" alt="LinkedIn"></li>
+                                <li><img class="social" src="{% static 'images/youtube.jpg' %}" alt="YouTube"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>My Experience As A Developer</h5>
+                        <hr>
+                        <p>Full stack developer at FOI laboratries</p>
+                        <p>Designed, built and managed a lab managment system as a sole developer. System supported thousands of 
+                            customers with a UI for Lab Admins and a customer dashboard.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>What I Know</h5>
+                        <hr>
+                        <p>Python, Django, JavaScript, HTML, CSS, Bootstrap, SQL and APIs such as google maps, JavaScript 
+                            charts and a whole branch more I can't possibly mention in one sentence! ;)</p>
+                        <p>PS: Working on Node JS, Mongo DB and Machine Learning.</p>                            
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>How I Learn</h5>
+                        <hr>
+                        <p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+                        <p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code 
+                            where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>My Short Term Goals</h5>
+                        <hr>
+                        <p>After almost two years of supporting my system at the lab I'm ready to learn something new. I'll 
+                            collaborating and sharing my experience with others my blog (SayHelloWorld.com) & youtube channel.</p>
+                        <p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & 
+                            learn from others with more experience than myself.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </body>
+</html>                                                                                                        
